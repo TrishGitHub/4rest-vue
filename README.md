@@ -1,6 +1,6 @@
 # 4rest
 
-> A Vue.js project
+> Ира Нощенко
 
 ## Build Setup
 
