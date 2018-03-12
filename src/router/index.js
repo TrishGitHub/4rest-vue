@@ -4,6 +4,7 @@ import HomePage from '@/components/HomePage'
 import AboutPage from '@/components/AboutPage'
 import BlogPage from '@/components/BlogPage'
 import WorksPage from '@/components/WorksPage'
+import AdminPage from '@/components/AdminPage'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
         path: '/works',
         name: 'WorksPage',
         component: WorksPage
-    }
+    },
+  {
+      path: '/admin',
+      name: 'AdminPage',
+      component: AdminPage
+  }
   ]
 })
